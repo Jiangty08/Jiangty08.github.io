@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Whatever</title>
+  <meta name="author" content="Jiang">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="Whatever"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Whatever" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="/js/jquery.min.js"></script>
+
+  
+
+</head>
+
+
+<body>
+  <!--[if lte IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0027_Simplified Chinese.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." style='margin-left:auto;margin-right:auto;display: block;'/></a></div> <![endif]-->
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">Whatever</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/categories/essay/">随感</a></li>
+    
+      <li><a href="/categories/tech/">技术</a></li>
+    
+      <li><a href="/categories/investment/">理财</a></li>
+    
+      <li><a href="/categories/life/">生活</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <time datetime="2017-05-29T08:43:00.000Z"><a href="/2017/05/29/hexo/">2017-05-29</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2017/05/29/hexo/">Hexo</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>官方教程：<a href="https://hexo.io/docs/index.html" target="_blank" rel="external">https://hexo.io/docs/index.html</a></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul>
+<li>安装 <a href="http://git-scm.com/" target="_blank" rel="external">Git</a> </li>
+<li>安装 <a href="https://nodejs.org/en/" target="_blank" rel="external">Nodejs</a></li>
+<li>安装 hexo：npm install -g hexo</li>
+</ul>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ul>
+<li><p><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">选一个主题</a></p>
+</li>
+<li><p><a href="https://github.com/hustcer/hexo-theme-air" target="_blank" rel="external">选择air主题</a></p>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/hustcer/hexo-theme-air.git themes/air</div></pre></td></tr></table></figure>
+<ul>
+<li>配置使用该主题，修改_config.yml</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: air</div></pre></td></tr></table></figure>
+<ul>
+<li>Create a new post</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<ul>
+<li>Run server</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<ul>
+<li>Generate static files</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<ul>
+<li>Deploy to remote sites</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><ul>
+<li>_config.yml中的title都修改为自己的</li>
+</ul>
+<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-index --save #索引生成器</div><div class="line">$ npm install hexo-generator-archive --save #归档生成器</div><div class="line">$ npm install hexo-generator-category --save #分类生成器</div><div class="line">$ npm install hexo-generator-tag --save #标签生成器</div><div class="line">$ npm install hexo-server --save #本地服务</div><div class="line">$ npm install hexo-deployer-git --save #hexo通过git发布（必装）</div><div class="line">$ npm install hexo-renderer-marked@0.2.7--save #渲染器</div><div class="line">$ npm install hexo-renderer-stylus@0.3.0 --save #渲染器</div></pre></td></tr></table></figure>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>通常可以选择部署到github</p>
+<h3 id="隐藏"><a href="#隐藏" class="headerlink" title="隐藏"></a>隐藏</h3>
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+
+
+
+<ul class="page-direction" id="page-direction">
+    <li><a class="page-prev" href="javascript:;" title="Vorherige Seite">
+      <span class="icon-stack">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-angle-left"></i>
+      </span>
+    <li><a class="page-next" href="javascript:;" title="Nächste Seite">
+      <span class="icon-stack">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-angle-right"></i>
+      </span>
+    </a></li>
+</ul>
+
+<nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="text" name="q" results="0" placeholder="Suche">
+    <i class="icon-search"></i>
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">Tags</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/tools/">tools</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">Neueste Artikel</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2017/05/29/hexo/">Hexo</a>
+      </li>
+    
+  </ul>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <div id="go-pg-top"><i class="icon-arrow-up"></i></div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2017 Jiang
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/page.js"></script>
+
+
+</body>
+
+</html>
